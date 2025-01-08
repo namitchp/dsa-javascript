@@ -1,5 +1,4 @@
 // Given an array, generate all the possible subarrays of the given array using recursion.
-
 class Solution {
     getSubArrays(arr) {
     const l = arr.length;
