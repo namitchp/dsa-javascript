@@ -1,7 +1,5 @@
-
+// quick short
 class Solution {
-
-
     partition(arr, low, high) {
         // Your code here
         const l=arr.length;
@@ -25,14 +23,12 @@ class Solution {
 
 
     }
-
     swap(arr,i,j){
         let temp=arr[i];
          arr[i]=arr[j]
          arr[j] =temp;
 
      }
-
     quickSort(arr, low, high) {
         if(low<high){
             const prev=this.partition(arr,low,high);
@@ -45,7 +41,6 @@ class Solution {
         this.quickSort(arr,low,high);
         return arr;
     }
-
 }
 
 
