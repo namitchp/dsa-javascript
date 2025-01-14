@@ -1,5 +1,6 @@
 var reverse = function (x) {
   let typeOf =false;
+  
   if (x < 0) {
     typeOf = true;
     x=-x;
@@ -28,5 +29,4 @@ if(reverse<=2**31-1){
     return 0
 
 };
-
 console.log(reverse(1534236469));
