@@ -49,8 +49,12 @@ class Solution {
     this.mergeSort(arr, mid + 1, right);
     this.merge(arr, left, mid, right);
   }
+  returnFunction(arr) {
+    this.mergeSort(arr, 0, arr.length - 1);
+    return arr;
+  }
 }
 
 const solutionClass = new Solution();
 const arr = [10, 9, 8, 7, 6, 5, 4, 3, 2, 1];
-console.log(solutionClass.mergeSort(arr, 0, 2));
+console.log(solutionClass.returnFunction(arr));
