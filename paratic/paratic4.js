@@ -22,6 +22,5 @@ class solution {
     //  return13
   }
 }
-
 const solutionClass = new solution();
 console.log(solutionClass.closestNumber(39, -6));
