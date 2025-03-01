@@ -49,6 +49,8 @@ class Solution {
     this.mergeSort(arr, mid + 1, right);
     this.merge(arr, left, mid, right);
   }
+
+  
   returnFunction(arr) {
     this.mergeSort(arr, 0, arr.length - 1);
     return arr;

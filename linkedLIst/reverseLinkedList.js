@@ -11,8 +11,6 @@ var reverseList = function(head) {
     }
     return prev;
 };
-
-
 console.log(reverseList({
     data:12,next:{data:32,next:{data:44,next:{data:45,next:{data:46,next:null}}}}
 }));
